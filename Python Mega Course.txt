@@ -35,4 +35,19 @@ You can both append and read a file with:
       content = file.read()
 
 
+You can get the documentation of a Python data type using:
+help(str)
+help(str.replace)
+help(dict.values)
+
+isinstance(x,type) returns true or false based on if value x matches type
+
+*Different ways to format strings*
+def person_name(first_name):
+    #message ='Hi {}'.format(first_name)
+    #message = f'Hi {first_name}'
+    message ='Hi %s' % first_name
+    return message
+print(person_name('Mary'))
+
       
