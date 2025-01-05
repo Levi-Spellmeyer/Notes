@@ -1,1 +1,40 @@
 Notes from Web Design certification course
+------------------------------------------
+
+The <figure> tag in HTML is used to encapsulate content like images, diagrams, illustrations, and code snippets, along with their captions.
+This tag semantically groups the content and caption together, ensuring they're associated with each other.
+For instance, if you have an image and you want to provide a caption for it, you can use the <figure> and <figcaption> tags like this:
+
+<figure>
+  <img src="example.jpg" alt="Description of image">
+  <figcaption>Caption for the image.</figcaption>
+</figure>
+
+------------------------------------------
+
+The anchor tag <a> can be embedded in a tag to connect a link to a string of text using href=""
+Adding target="_blank" opens any link clicked on in a new tab
+
+<a href="https://www.example.com" target="_blank">Visit Example</a>
+
+------------------------------------------
+
+The form element is used to get information from a user like their name, email, and other details.
+
+The input element allows you several ways to collect data from a web form. Like img elements, input elements are a void element and do not need closing tags.
+
+In order for a form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to represent the data being submitted.
+<input type="text" name="name">
+
+To prevent a user from submitting your form when required information is missing, you need to add the required attribute to an input element.
+There's no need to set a value to the required attribute. 
+Instead, just add the word required to the input element, making sure there is space between it and other attributes.
+
+input of type radio when multiple inputs share the same name attribute will make it to where only 1 input can be selected
+<input type="radio" name="meal"> Breakfast
+<input type="radio" name="meal"> Lunch          2 buttons only 1 can be selected and will deselect the other if clicked
+
+The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
+
+
+
